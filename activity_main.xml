@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="application.example.com.prava.MainActivity"
+    android:orientation="vertical">
+    <!--São os titulos dos perguntas e do quiz-->
+    <TextView
+        android:text="@string/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:text="@string/perg_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/perg1"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/pergunta"/>
+    <!--São as respostas dentro do editText-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/resposta"
+        android:ems="10"
+        android:id="@+id/resp1"
+        android:textSize="@dimen/resposta"/>
+
+    <TextView
+        android:text="@string/perg_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/perg2"
+        android:textSize="@dimen/pergunta" /> <!--Defide as dimendões em dp-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/resposta"
+        android:ems="10"
+        android:id="@+id/resp2"
+        android:textSize="@dimen/resposta" />
+
+    <TextView
+        android:text="@string/perg_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/perg3"
+        android:textSize="@dimen/pergunta" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/resp3"
+        android:textSize="@dimen/resposta"
+        android:hint="@string/resposta"/> <!--É como se fosse o placeholder do HTML-->
+
+    <TextView
+        android:text="@string/perg_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/perg4"
+        android:textSize="@dimen/pergunta"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/resposta"
+        android:ems="10"
+        android:id="@+id/resp4"
+        android:textSize="@dimen/resposta"/>
+
+    <TextView
+        android:text="@string/perg_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/perg5"
+        android:textSize="@dimen/pergunta" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/resposta"
+        android:ems="10"
+        android:id="@+id/resp5"
+        android:textSize="@dimen/resposta"/>
+
+    <TextView
+        android:text="@string/perg_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/perg6"
+        android:textSize="@dimen/pergunta"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/resposta"
+        android:ems="10"
+        android:id="@+id/resp6"
+        android:textSize="@dimen/resposta"/>
+
+    <Button
+        android:text="@string/verifica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_verifica"
+        android:onClick="verifica"/>
+
+</LinearLayout>

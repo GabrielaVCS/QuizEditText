@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Prova</string> <!--Seta todas as variaveis string usadas no xml-->
+    <string name="quiz">Quiz</string>
+    <string name="resposta">Resposta</string>
+    <string name="verifica">Verifica</string>
+    <string name="perg_1">O que significa a clausula final?</string>
+    <string name="resp_1">public final void nome_metodo(){}</string>
+    <string name="perg_2">O que significa a clausula static?</string>
+    <string name="resp_2">public static void Nome_metodo(){}</string>
+    <string name="perg_3">Como herdar em java?</string>
+    <string name="resp_3">Usar-se o extends, classe-filha extends classe-mae</string>
+    <string name="perg_4">Como cria uma Intent?</string>
+    <string name="resp_4">Intent nome_intente = new Intent(this, nome_activity)</string>
+    <string name="perg_5">Como cria um Toast?</string>
+    <string name="resp_5">Toast.makeText(this, "Algo escrito", Toast.LENGTH_SHORT).show()</string>
+    <string name="perg_6">Hint em HTML é equivalente há?</string>
+    <string name="resp_6">Ao placeholder</string>
+</resources>
